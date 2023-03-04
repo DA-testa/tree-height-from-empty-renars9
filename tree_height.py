@@ -52,7 +52,7 @@ def main():
             print("invalid filename")
             return
         
-        with open(filename, encoding="utf8") as f:
+        with open(filename) as f:
             length = int(f.readline())
             inputs = f.readline()
 
