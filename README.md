@@ -23,7 +23,6 @@ otherwise it’s 0-based index of the parent of 𝑖-th node. It is guaranteed t
 It is guaranteed that the input represents a tree.
 
 Constraints. 1 ≤ 𝑛 ≤ 105.
-Output Format. Output the height of the tree.
 
 Memory Limit. 512MB.
 
