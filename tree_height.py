@@ -39,13 +39,13 @@ def generateTree(length, elements):
 
 def main():
     filename = ""
-    check = input("I or F: ")
+    check = input()
     if(check == 'I'):
-        length = int(input("length: "))
+        length = int(input())
         inputs = input()
 
     elif(check == 'F'):
-        filename = input("Input filename: ")
+        filename = input()
 
         if('a' in filename[-1]):
             print("invalid filename")
@@ -54,7 +54,7 @@ def main():
         with open(filename) as f:
             length = int(f.readline())
             inputs = f.readline()
-            
+
     else:
         inputs = ""
 
