@@ -39,14 +39,14 @@ def generateTree(length, elements):
 
 def main():
     length = 0
-    filename = ""
+    filename = "/workspaces/tree-height-from-empty-renars9/test/"
     check = input()
-    if(check == 'I'):
+    if( 'I' in check):
         length = int(input())
         inputs = input()
 
-    elif(check == 'F'):
-        filename = input()
+    elif('F' in check):
+        filename = filename + input()
 
         if('a' in filename[-1]):
             print("invalid filename")
