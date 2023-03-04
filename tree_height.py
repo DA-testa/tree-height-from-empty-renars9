@@ -38,6 +38,7 @@ def generateTree(length, elements):
     return root
 
 def main():
+    length = 0
     filename = ""
     check = input()
     if(check == 'I'):
@@ -51,7 +52,7 @@ def main():
             print("invalid filename")
             return
         
-        with open(filename) as f:
+        with open(filename, encoding="utf8") as f:
             length = int(f.readline())
             inputs = f.readline()
 
