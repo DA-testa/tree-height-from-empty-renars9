@@ -39,7 +39,7 @@ def generateTree(length, elements):
 
 def main():
     length = 0
-    filename = "tree-height-from-empty-renars9/test/"
+    filename = "test/"
     check = input()
     if( 'I' in check):
         length = int(input())
